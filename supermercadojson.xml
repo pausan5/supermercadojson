@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <supermercados>
+    <nombre>MERCADONA</nombre>
+    <direccion>Carrer de Buenaventura Muñoz, 37</direccion>
+    <productos>
+      <nombre>Leche</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-03-22</inicio>
+        <fin>2023-03-31</fin>
+      </periodo_vigencia>
+      <habitual>true</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>litro</unidad_medida>
+      <precio>0.89</precio>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <nombre>Huevos</nombre>
+      <oferta>false</oferta>
+      <habitual>true</habitual>
+      <unidades>6</unidades>
+      <unidad_medida>unidad</unidad_medida>
+      <precio>1.2</precio>
+      <adquirido>true</adquirido>
+    </productos>
+  </supermercados>
+  <supermercados>
+    <nombre>LIDL</nombre>
+    <direccion>Carrer de Pujades, 15</direccion>
+    <productos>
+      <nombre>Filetes de pavo</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-03-22</inicio>
+        <fin>2023-03-28</fin>
+      </periodo_vigencia>
+      <habitual>true</habitual>
+      <unidades>500</unidades>
+      <unidad_medida>gramos</unidad_medida>
+      <precio>3.49</precio>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <nombre>Salmon</nombre>
+      <oferta>false</oferta>
+      <habitual>true</habitual>
+      <unidades>100</unidades>
+      <unidad_medida>gramos</unidad_medida>
+      <precio>3.29</precio>
+      <adquirido>false</adquirido>
+    </productos>
+  </supermercados>
+</root>

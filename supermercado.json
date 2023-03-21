@@ -1,0 +1,60 @@
+{
+    "supermercados": [
+        {
+            "nombre": "MERCADONA",
+            "direccion": "Carrer de Buenaventura Muñoz, 37",
+            "productos": [
+                {
+                    "nombre": "Leche",
+                    "oferta": true,
+                    "periodo_vigencia": {
+                        "inicio": "2023-03-22",
+                        "fin": "2023-03-31"
+                    },
+                    "habitual": true,
+                    "unidades": 1,
+                    "unidad_medida": "litro",
+                    "precio": 0.89,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Huevos",
+                    "oferta": false,
+                    "habitual": true,
+                    "unidades": 6,
+                    "unidad_medida": "unidad",
+                    "precio": 1.2,
+                    "adquirido": true
+                }
+            ]
+        },
+        {
+            "nombre": "LIDL",
+            "direccion": "Carrer de Pujades, 15",
+            "productos": [
+                {
+                    "nombre": "Filetes de pavo",
+                    "oferta": true,
+                    "periodo_vigencia": {
+                        "inicio": "2023-03-22",
+                        "fin": "2023-03-28"
+                    },
+                    "habitual": true,
+                    "unidades": 500,
+                    "unidad_medida": "gramos",
+                    "precio": 3.49,
+                    "adquirido": false
+                },
+                {
+                    "nombre": "Salmon",
+                    "oferta": false,
+                    "habitual": true,
+                    "unidades": 100,
+                    "unidad_medida": "gramos",
+                    "precio": 3.29,
+                    "adquirido": false
+                }
+            ]
+        }
+    ]
+}
